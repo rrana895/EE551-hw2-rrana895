@@ -20,7 +20,7 @@ def regular_expression_test():
     ###  For example,  ‘284–12 West Street’ should become ‘West Street’
 
     address = '284-12 West Street'
-    address = re.sub(r'^[\d-]+ ', '','3150 N Honore St' , 1)
+    address = re.sub(r'^[\d-]+ ', '','284-12 West Street' , 1)
 
 
     return n_punctuations, address
